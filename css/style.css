@@ -1,0 +1,547 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(16, 46, 66);
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(38, 144, 206);
+  height: 50px;
+
+  list-style-type: none;
+}
+
+#social {
+  display: flex;
+
+  justify-content: flex-end;
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+body {
+  background-image: url(../img/concrete-texture.png);
+  /*Effet de scroll lorsqu'on clique sur une ancre mais ne marche que sur FireFox ou pas du tout
+    scroll-behavior: smooth;*/
+}
+h1 {
+  font-size: 45px;
+  font-family: "Anton", sans-serif;
+  color: #2980b9;
+  text-align: center;
+  letter-spacing: 1px;
+}
+h2 {
+  font-size: 35px;
+  color: #2c3e50;
+  padding: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #aaa;
+}
+h3 {
+  font-size: 22px;
+  color: #2c3e50;
+  padding: 15px;
+  text-shadow: 1px 1px 2px #aaa;
+}
+h4 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/**************HEADER INDEX****************/
+header {
+  background: #2c3e50;
+  height: 175px;
+}
+#logo {
+  float: left;
+  width: 25%;
+  padding: 15px;
+  text-align: center;
+}
+#slogan {
+  float: left;
+  width: 50%;
+  padding-top: 50px;
+}
+#social {
+  float: left;
+  width: 25%;
+}
+#social i {
+  font-size: 30px;
+  text-align: right;
+  padding: 15px 30px 0 0;
+  display: block;
+}
+header a {
+  color: #2980b9;
+  text-decoration: none;
+}
+/*******************FIN HEADER*********************/
+
+/**************DEBUT NAV********************/
+nav {
+  background: #2980b9;
+  height: 70px;
+  border-bottom: 8px solid #6acafc;
+  text-align: center;
+  padding: 15px;
+}
+nav a {
+  margin: 10px;
+  padding: 2px 10px;
+  border-radius: 10px 0px;
+  border: 2px solid white;
+  background: #6acafc;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: oswald;
+  transition: 0.5s;
+}
+nav a:hover {
+  background: #a6d6c3;
+  color: white;
+}
+.activ {
+  background: #2c3e50;
+  color: white;
+}
+/**************FIN NAV********************/
+/*FAIRE LE ZONING AVEC DES HAUTEUR ET LARGEUR AVANT DE PLACER LES ELEMENTS DANS LES ZONES POUR ENSUITE SUPPRIMER LES HAUTEURS*/
+main {
+  background: rgba(178, 178, 178, 0.3);
+  width: 1000px;
+  margin: 0 auto;
+}
+aside {
+  height: 250px;
+  background: #a6d6c3;
+}
+section {
+  margin-top: 50px;
+  /*    background: #DAF7A6;*/
+  padding: 20px;
+}
+footer {
+  background: #2980b9;
+  height: 30px;
+  text-align: right;
+  padding: 5px 10px;
+}
+
+/******************** DEBUT PAGE ZONING ********************/
+
+/******************** DEBUT ZONING 1 ********************/
+
+section {
+  width: 80%;
+  margin: auto;
+}
+
+.sect1 {
+  background-color: yellow;
+  height: 100px;
+}
+
+.h11 {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: small;
+}
+
+.flex {
+  display: flex;
+}
+.sect2 {
+  background-color: greenyellow;
+  width: 30%;
+  height: 400px;
+}
+
+.sect3 {
+  background-color: rgb(8, 172, 201);
+  width: 80%;
+  height: 400px;
+}
+
+h1 {
+  display: flex;
+  justify-content: flex-start;
+  color: black;
+  margin-bottom: 10%;
+  padding-left: 3%;
+}
+
+h2 {
+  padding-left: 5%;
+}
+
+.h12 {
+  font-size: small;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.h13 {
+  font-size: small;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+/******************* FIN ZONING 1 *******************/
+
+.zoning2 {
+  width: 60%;
+}
+
+.sect21 {
+  background-color: rgb(235, 235, 156);
+  height: 100px;
+}
+
+.flex2 {
+  display: flex;
+}
+.zn2 {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-size: small;
+}
+
+.sect22,
+.sect24 {
+  background-color: #24aec7;
+  height: 500px;
+  width: 20%;
+}
+
+.sect23 {
+  background-color: #093d5f;
+  width: 60%;
+}
+
+.zn21,
+.zn22,
+.zn23 {
+  color: white;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+}
+
+.ztg {
+  display: flex;
+  justify-content: flex-start;
+  font-size: x-large;
+}
+
+/*******************ZONING 3**********************/
+
+.zoning3 {
+  width: 80%;
+}
+.sect31 {
+  background-color: rgb(9, 87, 99);
+  height: 600px;
+  width: 50%;
+}
+
+.sect32 {
+  background-color: rgb(0, 128, 68);
+  height: 600px;
+  width: 50%;
+}
+
+.sect33 {
+  background-color: rgb(176, 202, 178);
+  height: 100px;
+}
+
+.flex3 {
+  display: flex;
+}
+
+.zn33 {
+  display: flex;
+  justify-content: end;
+  font-size: larger;
+}
+
+.zn32 {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  color: white;
+}
+
+.zn31 {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  color: white;
+}
+
+.ztg1 {
+  padding-top: 20%;
+}
+/*******************ZONING 4**********************/
+.header {
+  background-color: rgb(186, 204, 204);
+}
+
+.header h1 {
+  margin: 0;
+}
+.sectionspe {
+  background-color: rgb(15, 153, 172);
+  border: white 15px solid;
+  height: 500px;
+}
+
+.footer1 {
+  background-color: rgb(7, 45, 63);
+  text-align: center;
+}
+
+.hz4 {
+  display: flex;
+  justify-content: center;
+}
+.s42 {
+  margin: 0%;
+  text-align: right;
+}
+
+.s41 {
+  display: flex;
+}
+.zoning4 {
+  border: black 2px solid;
+  padding: 0;
+}
+
+/********************Lins et menu**************************/
+
+.h1h {
+  margin: 0;
+}
+
+ul.lien1 {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+}
+
+ul.lien1 li {
+  margin: 8px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background: #2c3e50;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  box-shadow: 0px 0px 10px 3px black;
+  font-family: oswald;
+}
+
+ul.lien1 li:hover {
+  box-shadow: none;
+}
+
+ul.lien2 {
+  background-color: transparent;
+  display: inline-block;
+}
+
+ul.lien2 li {
+  margin: 15px 0;
+  text-decoration: none;
+}
+
+ul.lien2 a:hover {
+  color: orange;
+}
+
+.lien2 a {
+  text-decoration: none;
+}
+
+ul.lien3 {
+  background-color: transparent;
+  justify-content: space-around;
+}
+
+.lien3 a {
+  text-decoration: none;
+  font-family: oswald;
+  color: black;
+}
+
+.lien3 li {
+  border: aliceblue solid 2px;
+  border-radius: 15px 0 15px 0;
+  padding: 10px 5px;
+}
+
+.lien3 li a {
+  background-color: transparent;
+}
+.lien3 li:hover {
+  background-color: rgb(31, 190, 238);
+  transition: 5s;
+}
+
+.lien4 li:hover {
+  background-color: rgb(31, 190, 238);
+  transition: 5s;
+}
+
+.liens4 li {
+  border: aliceblue solid 2px;
+  border-radius: 15px 0 15px 0;
+  padding: 10px 5px;
+  background-color: rgb(31, 190, 238);
+}
+
+/************************* liste********************************/
+ul.liste1 {
+  background-color: transparent; padding-right: 47% ;
+}
+
+.fa-hand-spock-o:hover {
+  color: red;
+  font-size: 50px;
+}
+
+ul.liste1 a {
+  text-decoration: none; justify-content: space-around;
+}
+
+/*************************Tableau*******************************/
+table,tr,th,td{
+border: 2px solid rgb(13, 162, 199);
+  border-collapse: collapse;
+  text-align: center;
+}
+.entete{
+  background-color: #b8def1;
+
+}
+
+.piedtab{
+  background-color:#b8def1; 
+}
+
+caption{
+  text-align: center;
+  
+}
+
+table{margin: auto;
+  width: 75%;
+
+}
+
+
+
+
+/******************** *FIN PAGE ZONING ************************/
+
